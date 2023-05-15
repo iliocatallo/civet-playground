@@ -16,6 +16,7 @@
   "devDependencies": {
     "@danielx/civet": "^0.6.2",
     "c8": "^7.13.0",
+    "esbuild": "^0.17.19",
     "loadr": "^0.1.1",
     "uvu": "^0.5.4"
   },
