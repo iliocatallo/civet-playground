@@ -1,0 +1,10 @@
+import { test } from 'uvu'
+import * as assert from 'uvu/assert'
+import { hello } from '../src/hello.civet'
+
+test 'tost', ->
+	hello()
+	assert.is true, true
+
+
+test.run()
