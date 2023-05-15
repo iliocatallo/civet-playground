@@ -13,7 +13,6 @@
   "devDependencies": {
     "@danielx/civet": "^0.6.2",
     "loadr": "^0.1.1",
-    "ts-node": "^10.9.1",
     "uvu": "^0.5.4"
   },
   "volta": {
