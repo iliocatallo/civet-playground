@@ -5,6 +5,7 @@ esbuild.build({
   entryPoints: ['src/index.civet'],
   outdir: 'dist/',
   format: 'esm',
+  bundle: true,
   plugins: [
     civetPlugin()
   ]
