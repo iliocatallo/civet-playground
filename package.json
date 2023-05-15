@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Civet (civet.dev) playground",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "loadr -- uvu test .test.civet"
   },
