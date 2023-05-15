@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "loadr -- uvu test .test.civet"
+    "test": "loadr -- uvu test .test.civet",
+    "build": "civet --js -c src/*.civet -o dist/.js"
   },
   "author": "Ilio Catallo",
   "license": "MIT",
