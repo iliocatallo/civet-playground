@@ -2,8 +2,11 @@
   "name": "civet-playground",
   "version": "1.0.0",
   "description": "Civet (civet.dev) playground",
-  "main": "index.js",
   "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "test": "loadr -- c8 --include=src --extension .civet uvu test .test.civet",
     "build": "civet --js -c src/*.civet -o dist/.js"
