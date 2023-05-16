@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "test": "loadr -- c8 --include=src --extension .civet uvu test .test.civet",
-    "build": "civet --js -c src/*.civet -o dist/.js"
+    "build": "node build.mjs"
   },
   "author": "Ilio Catallo",
   "license": "MIT",
